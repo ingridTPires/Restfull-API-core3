@@ -1,0 +1,14 @@
+MVC - padrão arquitetural, aplica um padrão em uma já existente
+
+Estilo arquitetural - define uma arquitetura por completo, componentes, camadas..
+
+Rotas - padrão para URL, atenda a passagem de parâmetros
+	rotas por atributo - [Route("")] -  quanto tem mais de uma = sobrecarga de rotas
+
+Actions Results - é o tipo de retorno da action da controller
+
+Verbos protocolo http.. get, post, (delete, put(atualizar informações já existentes)  - geralmente em api)
+
+a rota padrão (defaut) deve ser sempre a última 
+
+Tem varias restrições de rotas alem de tipos padrões .. site m

@@ -2,9 +2,11 @@
     ViewData["Title"] = "Home Page";
 }
 
-<partial name="_AvisoGeral" />  @* Em caso de não asyncrono, geralmente é mais rápido *@
+@*<partial name="_AvisoGeral" />   Em caso de não asyncrono, geralmente é mais rápido *@
 
-@*@await Html.PartialAsync("_AvisoGeral")*@
+@await Html.PartialAsync("_AvisoGeral")
+
+<vc:Carrinho></vc:Carrinho>
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
